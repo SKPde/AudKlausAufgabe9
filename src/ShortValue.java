@@ -8,15 +8,15 @@ public class ShortValue extends Value {
 	}
 
 	@Override
-	public void plus(Value v) {
+	public Value plus(Value v) {
 		// TODO Auto-generated method stub
-
+		return 0;
 	}
 
 	@Override
-	public void times(Value v) {
+	public Value times(Value v) {
 		// TODO Auto-generated method stub
-
+		return 0;
 	}
 	
 	public boolean equals(ShortValue zahl) {  // Vergleichs-Methode
