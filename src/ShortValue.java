@@ -23,7 +23,11 @@ public class ShortValue extends Value {
 	
 	public boolean equals(ShortValue zahl) {  // Vergleichs-Methode
 		
-		return this.s == zahl.s; 
+		return s == zahl.s; 
+	}
+	
+	public String toString() {
+		return "" + s;
 	}
 
 }
